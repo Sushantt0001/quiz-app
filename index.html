@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Quiz App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="centered" id="title-slide">
+    <div class="card large">
+      <h2>Mini Project</h2>
+      <h1>INTERACTIVE QUIZ</h1>
+      <button id="start-btn">Start Quiz</button>
+    </div>
+  </main>
+
+  <section class="centered hide" id="category-section">
+    <h2>Select Category</h2>
+    <button class="category-btn" data-category="general">General</button>
+    <button class="category-btn" data-category="technology">Technology</button>
+    <button class="category-btn" data-category="history">History</button>
+    <button class="category-btn" data-category="mathematics">Math</button>
+  </section>
+
+  <section class="centered hide" id="difficulty-section">
+    <h2>Select Difficulty</h2>
+    <button class="difficulty-btn" data-difficulty="easy">Easy</button>
+    <button class="difficulty-btn" data-difficulty="medium">Medium</button>
+    <button class="difficulty-btn" data-difficulty="hard">Hard</button>
+  </section>
+
+  <section class="centered hide" id="quiz-card">
+    <p id="timer">⏱ Time Left: 5s</p>
+    <h2 id="question"></h2>
+    <ul id="options"></ul>
+    <button id="next-btn">Next</button>
+  </section>
+
+  <section class="centered hide" id="result-container">
+    <h2>Your Score: <span id="score"></span></h2>
+    <button id="restart-btn">Restart</button>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
