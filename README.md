@@ -48,7 +48,7 @@ quiz-app/
 
 ## 🌐 Live Demo
 
-(After deployment, add your link here)
+https://sushantt0001.github.io/quiz-app/
 
 ---
 
